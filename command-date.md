@@ -100,19 +100,19 @@ Examples:
 Convert seconds since the epoch (1970-01-01 UTC) to a date
 
 ```bash
-$ date --date='@2147483647'
+date --date='@2147483647'
 ```
 
 Show the time on the west coast of the US (use tzselect(1) to find TZ)
 
 ```bash
-$ TZ='America/Los_Angeles' date
+TZ='America/Los_Angeles' date
 ```
 
 Show the local time for 9AM next Friday on the west coast of the US
 
 ```bash
-$ date --date='TZ="America/Los_Angeles" 09:00 next Fri'
+date --date='TZ="America/Los_Angeles" 09:00 next Fri'
 ```
 
 GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
