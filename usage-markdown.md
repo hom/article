@@ -240,7 +240,7 @@ code
 ### 图片链接
 
 ```markdown
-[![weibo-logo]](http://weibo.com/linpiaochen)
+[![百度一下，你就知道](https://www.baidu.com/img/bd_logo1.png "百度一下，你就知道")](https://www.baidu.com)
 ```
 
 效果
