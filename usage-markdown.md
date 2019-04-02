@@ -224,8 +224,13 @@ code
 
 ### 一般链接
 
+> `[name](URL title)`
+
+- `name`显示的链接文字
+- `title`鼠标悬浮显示的文字
+
 ```markdown
-[name](URL title)
+[百度一下，你就知道](https://www.baidu.com "百度一下，你就知道")
 ```
 
 效果
@@ -240,7 +245,7 @@ code
 
 效果
 
-[![百度一下，你就知道]](https://www.baidu.com/img/bd_logo1.png)
+[![百度一下，你就知道](https://www.baidu.com/img/bd_logo1.png "百度一下，你就知道")](https://www.baidu.com)
 
 ### 锚点
 
@@ -260,11 +265,15 @@ code
 
 ### 基本格式
 
-- alt表示图片显示失败时的替换文本
-- title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
+> `![alt](URL title)`
+
+- `alt`表示图片显示失败时的替换文本
+- `title`表示鼠标悬停在图片时的显示文本（注意这里要加引号）
 
 ```markdown
-![alt](URL title)
+![百度一下，你就知道](https://www.baidu.com/img/bd_logo1.png "百度一下，你就知道")
 ```
+
+效果
 
 ![百度一下，你就知道](https://www.baidu.com/img/bd_logo1.png "百度一下，你就知道")
