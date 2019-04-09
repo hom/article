@@ -2,14 +2,14 @@
 
 Some issues and usages that I collected
 
-## `install-*`
+## install-*
 
 Some installation docs
 
-## `usage-*`
+## usage-*
 
 Some usages for that
 
-## `fix-*`
+## fix-*
 
 Fix some bugs or errors
