@@ -1,4 +1,7 @@
-### 安装`EPEL Release`源
+# 安装ffmpeg
+
+## 安装`EPEL Release`源
+
 > 需要使用第三方`repo`源 
 1. 安装`epel-release`
 ```bash
@@ -13,7 +16,7 @@ sudo rpm –import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 yum repolist
 ```
 
-### 安装`Nux-Dextop`源
+## 安装`Nux-Dextop`源
 1. 导入`Code`
 ```bash
 sudo rpm –import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
@@ -27,7 +30,7 @@ sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release
 yum repolist
 ```
 
-### 安装`ffmpeg`
+## 安装`ffmpeg`
 ```bash
 yum install -y ffmpeg
 ```
