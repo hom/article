@@ -61,7 +61,9 @@ $ snap install shadowsocks
   "fast_open": false
 }
 ```
+
 说明信息
+
 Name | Explanation
 -----|------------
 server | the address your server listens
