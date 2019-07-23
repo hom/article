@@ -1,12 +1,13 @@
-#### ubuntu
+安装`kerberos`报错
+
+- ubuntu
+
 ```bash
 sudo apt-get install libkrb5-dev
 ```
 
-#### centos
+- centos
+
 ```bash
 sudo yum install krb5-devel
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5MjE3ODUwXX0=
--->
