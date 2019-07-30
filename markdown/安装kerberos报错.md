@@ -9,5 +9,5 @@ sudo apt-get install libkrb5-dev
 - centos
 
 ```bash
-sudo yum install -y krb5-devel
+sudo yum -y install gcc gcc-c++ kernel-devel krb5-devel
 ```
