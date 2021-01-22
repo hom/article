@@ -1,5 +1,3 @@
-# iget
+# article
 
 Note Everything
-
-## Note list
