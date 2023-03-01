@@ -1,3 +1,3 @@
-# article
+# 文章
 
-Note Everything
+此仓库收录了各种各样的实践、记录、教程文章
